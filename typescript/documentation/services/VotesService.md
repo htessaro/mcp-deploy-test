@@ -28,14 +28,14 @@ A list of all methods in the `VotesService` service. Click on the method name to
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.votes.getVotes({
+  const { data } = await cats.votes.getVotes({
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -64,16 +64,16 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
   const input = {};
 
-  const { data } = await mcpServer.votes.createVotes({
+  const { data } = await cats.votes.createVotes({
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -102,14 +102,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.votes.getVotesByVoteId('vote_id', {
+  const { data } = await cats.votes.getVotesByVoteId('vote_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -138,14 +138,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.votes.deleteVoteByVoteId('vote_id', {
+  const { data } = await cats.votes.deleteVoteByVoteId('vote_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });

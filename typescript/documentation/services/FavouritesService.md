@@ -28,14 +28,14 @@ A list of all methods in the `FavouritesService` service. Click on the method na
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.favourites.getFavourites({
+  const { data } = await cats.favourites.getFavourites({
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -64,16 +64,16 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
   const input = {};
 
-  const { data } = await mcpServer.favourites.createFavourites({
+  const { data } = await cats.favourites.createFavourites({
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -102,14 +102,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.favourites.getFavouritesByFavouriteId('favourite_id', {
+  const { data } = await cats.favourites.getFavouritesByFavouriteId('favourite_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -138,14 +138,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.favourites.deleteFavouritesByFavouriteId('favourite_id', {
+  const { data } = await cats.favourites.deleteFavouritesByFavouriteId('favourite_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });

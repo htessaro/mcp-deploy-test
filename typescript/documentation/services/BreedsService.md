@@ -29,14 +29,14 @@ A list of all methods in the `BreedsService` service. Click on the method name t
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.breeds.getBreeds({
+  const { data } = await cats.breeds.getBreeds({
     limit: 3,
     page: 6,
     xApiKey: 'x-api-key',
@@ -66,14 +66,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.breeds.getBreedsByBreedId('breed_id', {
+  const { data } = await cats.breeds.getBreedsByBreedId('breed_id', {
     contentType: 'Content-Type',
   });
 
@@ -100,14 +100,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.breeds.getBreedsSearch({
+  const { data } = await cats.breeds.getBreedsSearch({
     q: 'q',
     attachImage: 2,
   });

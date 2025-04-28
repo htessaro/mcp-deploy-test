@@ -1,5 +1,5 @@
 {
-  "name": "mcp-server-mcp",
+  "name": "cats-mcp",
   "version": "1.0.0",
   "description": "cat-api-logohttpsthecatapi.comappimmutableassetsthecatapi-logo.78868573.svg  An open, free, read  write API all about Cats The Cat API gives you access to 10000's of Cat images, and breeds. - Upload your own Images - Get detailed info on all Cat Breeds - Allow your Users to Favourite or Vote on Images - Save a custom value with each request so you can match data to your Users  How do i get access Just sign up for an API Key from httpsthecatapi.com for free. We're looking forward to seeing what you build Don't forget to checkout it's sister API - TheDogAPI.com",
   "source": "./src/index.ts",
@@ -32,7 +32,7 @@
     "@types/node": "^22.14.0"
   },
   "dependencies": {
-    "mcp-server": "file:../",
+    "cats": "file:../",
     "zod": "^3.24.2",
     "@modelcontextprotocol/sdk": "^1.8.0"
   },

@@ -41,14 +41,14 @@ Searches or returns Random selection from all approved images. Default is to ret
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.imagesListSearchOrRandom({
+  const { data } = await cats.images.imagesListSearchOrRandom({
     size: 'size',
     mimeTypes: 'mime_types',
     format: 'format',
@@ -84,14 +84,14 @@ Get the raw analysis results for any uploaded image
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.getImagesBkIEhN3pG({
+  const { data } = await cats.images.getImagesBkIEhN3pG({
     xApiKey: 'x-api-key',
   });
 
@@ -123,14 +123,14 @@ Only returns images from your account, uploaded via 'api/v1/images/upload'
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.getImages({
+  const { data } = await cats.images.getImages({
     limit: 8,
     page: 2,
     order: 'order',
@@ -164,10 +164,10 @@ Make sure you're using the right field to send the image, and Content-Type heade
 **Example Usage Code Snippet**
 
 ```typescript
-import { CreateImagesUploadRequest, McpServer } from 'mcp-server';
+import { Cats, CreateImagesUploadRequest } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
@@ -177,7 +177,7 @@ import { CreateImagesUploadRequest, McpServer } from 'mcp-server';
     breedIds: 'breed_ids',
   };
 
-  const { data } = await mcpServer.images.createImagesUpload(createImagesUploadRequest, {
+  const { data } = await cats.images.createImagesUpload(createImagesUploadRequest, {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -206,14 +206,14 @@ import { CreateImagesUploadRequest, McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.deleteImagesByImageId('image_id', {
+  const { data } = await cats.images.deleteImagesByImageId('image_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -241,14 +241,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.getImagesByImageIdBreeds('image_id', {
+  const { data } = await cats.images.getImagesByImageIdBreeds('image_id', {
     contentType: 'Content-Type',
   });
 
@@ -277,16 +277,16 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
   const input = {};
 
-  const { data } = await mcpServer.images.createImagesByImageIdBreeds('image_id', {
+  const { data } = await cats.images.createImagesByImageIdBreeds('image_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });
@@ -316,14 +316,14 @@ import { McpServer } from 'mcp-server';
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.images.deleteImagesByImageIdBreedsByBreedId('image_id', 'breed_id', {
+  const { data } = await cats.images.deleteImagesByImageIdBreedsByBreedId('image_id', 'breed_id', {
     contentType: 'Content-Type',
     xApiKey: 'x-api-key',
   });

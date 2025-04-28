@@ -24,16 +24,16 @@ A list of all methods in the `WebhooksService` service. Click on the method name
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
   const input = {};
 
-  const { data } = await mcpServer.webhooks.createWebhooks();
+  const { data } = await cats.webhooks.createWebhooks();
 
   console.log(data);
 })();

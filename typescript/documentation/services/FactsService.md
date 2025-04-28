@@ -30,14 +30,14 @@ Get one or more facts about the Species. For more at a time just update the 'lim
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.facts.getBreedsByBreedIdFacts('breed_id', {
+  const { data } = await cats.facts.getBreedsByBreedIdFacts('breed_id', {
     limit: 7,
     page: 1,
     order: 'order',
@@ -61,14 +61,14 @@ Get one or more Random facts and the Species. For more at a time just update the
 **Example Usage Code Snippet**
 
 ```typescript
-import { McpServer } from 'mcp-server';
+import { Cats } from 'cats';
 
 (async () => {
-  const mcpServer = new McpServer({
+  const cats = new Cats({
     token: 'YOUR_TOKEN',
   });
 
-  const { data } = await mcpServer.facts.getFacts();
+  const { data } = await cats.facts.getFacts();
 
   console.log(data);
 })();

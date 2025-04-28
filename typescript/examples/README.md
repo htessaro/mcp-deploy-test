@@ -1,10 +1,10 @@
-# mcp-server
+# cats
 
-A basic example of how to use the mcp-server package.
+A basic example of how to use the cats package.
 
 ## Installation
 
-In the event `mcp-server` is not published to npm, you can install it locally by running the following command in the examples folder:
+In the event `cats` is not published to npm, you can install it locally by running the following command in the examples folder:
 
 ```sh
 npm run setup
@@ -15,7 +15,7 @@ This will rebuild the parent package and install it locally.
 Otherwise you can install it from npm:
 
 ```sh
-npm install mcp-server
+npm install cats
 ```
 
 ## Usage

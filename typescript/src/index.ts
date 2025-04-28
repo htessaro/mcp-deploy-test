@@ -19,7 +19,7 @@ export * from './services/webhooks';
 export * from './http';
 export { Environment } from './http/environment';
 
-export class McpServer {
+export class Cats {
   public readonly images: ImagesService;
 
   public readonly breeds: BreedsService;
