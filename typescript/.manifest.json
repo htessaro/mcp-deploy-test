@@ -1,0 +1,231 @@
+{
+  "liblabVersion": "2.25.10",
+  "date": "2025-04-27T14:55:40.609Z",
+  "config": {
+    "apiId": 2094,
+    "sdkName": "mcp-server",
+    "sdkVersion": "1.0.0",
+    "languages": ["typescript"],
+    "auth": ["bearer"],
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "rawConfig": {
+      "sdkName": "mcp-server",
+      "apiVersion": "1.0.0",
+      "apiName": "mcp-server-api",
+      "specFilePath": "https://raw.githubusercontent.com/thatapicompany/apis/main/theCatAPI.com/thecatapi-oas.yaml",
+      "languages": ["typescript"],
+      "auth": ["bearer"],
+      "customizations": {
+        "includeOptionalSnippetParameters": true,
+        "generateMCP": true,
+        "authentication": {
+          "access": {
+            "prefix": "Bearer"
+          }
+        },
+        "devContainer": true,
+        "generateEnv": true,
+        "inferServiceNames": false,
+        "injectedModels": [],
+        "license": {
+          "type": "MIT"
+        },
+        "responseHeaders": false,
+        "retry": {
+          "enabled": true,
+          "maxAttempts": 3,
+          "retryDelay": 150
+        }
+      },
+      "languageOptions": {
+        "typescript": {
+          "bundle": true,
+          "exportClassDefault": false,
+          "httpClient": "fetch",
+          "npmName": "",
+          "npmOrg": "",
+          "githubRepoName": "",
+          "ignoreFiles": [],
+          "sdkVersion": "1.0.0",
+          "liblabVersion": "2",
+          "generateEnumAs": "union"
+        }
+      },
+      "publishing": {
+        "githubOrg": ""
+      }
+    },
+    "apiVersion": "1.0.0",
+    "apiName": "mcp-server-api",
+    "specFilePath": "https://raw.githubusercontent.com/thatapicompany/apis/main/theCatAPI.com/thecatapi-oas.yaml",
+    "languageOptions": {
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0",
+        "generateEnumAs": "union"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "authentication": {
+      "access": {
+        "prefix": "Bearer"
+      }
+    },
+    "devContainer": true,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "generateMCP": true,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": true,
+    "includeWatermark": true,
+    "language": "typescript",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "httpClient": "fetch",
+    "bundle": true,
+    "exportClassDefault": false,
+    "npmName": "",
+    "npmOrg": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "generateEnumAs": "union",
+    "typescriptVersion": "5.3.3",
+    "zodVersion": "3.22.0",
+    "compilerOptions": {
+      "target": "es6",
+      "module": "Node16",
+      "lib": ["es2018", "dom"]
+    },
+    "namingStrategy": "base",
+    "usesFormData": false,
+    "environmentVariables": [
+      {
+        "name": "BASE_URL",
+        "description": "Optional - This variable will override the default API host."
+      },
+      {
+        "name": "TOKEN",
+        "description": "Token required for authentication."
+      }
+    ],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "fetch",
+      "packages": {},
+      "languages": ["typescript"],
+      "types": {
+        "packageName": "@types/isomorphic-fetch",
+        "version": "^0.0.36"
+      }
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "ai": false,
+    "specType": "openapi"
+  },
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "examples/tsconfig.json",
+    "examples/package.json",
+    "examples/README.md",
+    "examples/src/index.ts",
+    "src/http/client.ts",
+    "src/services/images/models/create-images-upload-request.ts",
+    ".gitignore",
+    "src/services/base-service.ts",
+    "src/services/images/images-service.ts",
+    "src/services/breeds/breeds-service.ts",
+    "src/services/facts/facts-service.ts",
+    "src/services/favourites/favourites-service.ts",
+    "src/services/votes/votes-service.ts",
+    "src/services/webhooks/webhooks-service.ts",
+    "src/index.ts",
+    "src/services/images/models/index.ts",
+    "src/services/images/index.ts",
+    "src/services/breeds/index.ts",
+    "src/services/facts/index.ts",
+    "src/services/favourites/index.ts",
+    "src/services/votes/index.ts",
+    "src/services/webhooks/index.ts",
+    "src/http/index.ts",
+    "src/http/handlers/handler-chain.ts",
+    "src/http/types.ts",
+    "src/http/error.ts",
+    "src/http/handlers/terminating-handler.ts",
+    "src/http/handlers/hook-handler.ts",
+    "src/http/hooks/custom-hook.ts",
+    "src/http/hooks/hook.ts",
+    "src/http/handlers/retry-handler.ts",
+    "src/http/environment.ts",
+    "src/http/handlers/response-validation-handler.ts",
+    "./LICENSE",
+    "src/services/images/request-params.ts",
+    "src/services/breeds/request-params.ts",
+    "src/services/facts/request-params.ts",
+    "src/services/favourites/request-params.ts",
+    "src/services/votes/request-params.ts",
+    "documentation/models/CreateImagesUploadRequest.md",
+    "src/http/handlers/request-validation-handler.ts",
+    ".devcontainer/devcontainer.json",
+    "src/http/transport/request.ts",
+    "src/http/transport/request-builder.ts",
+    "src/http/serialization/base-serializer.ts",
+    "src/http/serialization/query-serializer.ts",
+    "src/http/serialization/path-serializer.ts",
+    "src/http/serialization/header-serializer.ts",
+    "src/http/transport/request-fetch-adapter.ts",
+    "src/http/transport/transport-hook-adapter.ts",
+    "src/http/utils/line-decoder.ts",
+    "src/http/utils/response-matcher.ts",
+    "src/http/utils/content-type.ts",
+    "src/http/errors/validation-error.ts",
+    "src/http/transport/types.ts",
+    "documentation/services/WebhooksService.md",
+    "documentation/services/FactsService.md",
+    "documentation/services/BreedsService.md",
+    "documentation/services/FavouritesService.md",
+    "documentation/services/VotesService.md",
+    "documentation/services/ImagesService.md",
+    "README.md",
+    "./mcp/package.json",
+    "./mcp/tsconfig.json",
+    "./mcp/.gitignore",
+    "./mcp/src/index.ts",
+    "./mcp/README.md"
+  ]
+}

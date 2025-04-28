@@ -1,0 +1,3097 @@
+[
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "parameters",
+      "5",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 114,
+        "character": 25
+      },
+      "start": {
+        "line": 114,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be boolean",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "parameters",
+      "7",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 126,
+        "character": 22
+      },
+      "start": {
+        "line": 126,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "parameters",
+      "8",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 133,
+        "character": 22
+      },
+      "start": {
+        "line": 133,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 149,
+        "character": 30
+      },
+      "start": {
+        "line": 149,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "responses",
+      "401",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 202,
+        "character": 30
+      },
+      "start": {
+        "line": 202,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "responses",
+      "401",
+      "headers",
+      "Server",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 214,
+        "character": 47
+      },
+      "start": {
+        "line": 214,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/search",
+      "get",
+      "responses",
+      "401",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 273,
+        "character": 32
+      },
+      "start": {
+        "line": 247,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/BkIEhN3pG",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 421,
+        "character": 54
+      },
+      "start": {
+        "line": 275,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/BkIEhN3pG",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 333,
+        "character": 31
+      },
+      "start": {
+        "line": 333,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/BkIEhN3pG",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 421,
+        "character": 54
+      },
+      "start": {
+        "line": 350,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 699,
+        "character": 75
+      },
+      "start": {
+        "line": 423,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/",
+      "get",
+      "parameters",
+      "2",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 450,
+        "character": 23
+      },
+      "start": {
+        "line": 450,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/",
+      "get",
+      "parameters",
+      "3",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 457,
+        "character": 22
+      },
+      "start": {
+        "line": 457,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "content-length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 476,
+        "character": 31
+      },
+      "start": {
+        "line": 476,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "examples",
+      "example-0",
+      "value"
+    ],
+    "range": {
+      "end": {
+        "line": 596,
+        "character": 36
+      },
+      "start": {
+        "line": 500,
+        "character": 24
+      }
+    },
+    "message": "\"value\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/images/",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "examples",
+      "example-1",
+      "value"
+    ],
+    "range": {
+      "end": {
+        "line": 699,
+        "character": 75
+      },
+      "start": {
+        "line": 599,
+        "character": 24
+      }
+    },
+    "message": "\"value\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 827,
+        "character": 27
+      },
+      "start": {
+        "line": 701,
+        "character": 9
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 774,
+        "character": 29
+      },
+      "start": {
+        "line": 774,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 778,
+        "character": 30
+      },
+      "start": {
+        "line": 778,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 782,
+        "character": 30
+      },
+      "start": {
+        "line": 782,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 786,
+        "character": 28
+      },
+      "start": {
+        "line": 786,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 790,
+        "character": 49
+      },
+      "start": {
+        "line": 790,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/images/upload",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 802,
+        "character": 30
+      },
+      "start": {
+        "line": 802,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/images/{image_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 856,
+        "character": 32
+      },
+      "start": {
+        "line": 829,
+        "character": 11
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/{image_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 856,
+        "character": 32
+      },
+      "start": {
+        "line": 829,
+        "character": 11
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 879,
+        "character": 32
+      },
+      "start": {
+        "line": 858,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 879,
+        "character": 32
+      },
+      "start": {
+        "line": 858,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 917,
+        "character": 32
+      },
+      "start": {
+        "line": 880,
+        "character": 9
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 917,
+        "character": 32
+      },
+      "start": {
+        "line": 880,
+        "character": 9
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds/{breed_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 953,
+        "character": 32
+      },
+      "start": {
+        "line": 919,
+        "character": 11
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/images/{image_id}/breeds/{breed_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 953,
+        "character": 32
+      },
+      "start": {
+        "line": 919,
+        "character": 11
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/breeds",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1173,
+        "character": 72
+      },
+      "start": {
+        "line": 955,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/breeds",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1173,
+        "character": 72
+      },
+      "start": {
+        "line": 955,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "parameters",
+      "2",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 979,
+        "character": 23
+      },
+      "start": {
+        "line": 979,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "parameters",
+      "3",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 984,
+        "character": 22
+      },
+      "start": {
+        "line": 984,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1020,
+        "character": 33
+      },
+      "start": {
+        "line": 1020,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1024,
+        "character": 30
+      },
+      "start": {
+        "line": 1024,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1028,
+        "character": 30
+      },
+      "start": {
+        "line": 1028,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1032,
+        "character": 28
+      },
+      "start": {
+        "line": 1032,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1036,
+        "character": 49
+      },
+      "start": {
+        "line": 1036,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Count",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1040,
+        "character": 29
+      },
+      "start": {
+        "line": 1040,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Page",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1044,
+        "character": 28
+      },
+      "start": {
+        "line": 1044,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1048,
+        "character": 28
+      },
+      "start": {
+        "line": 1048,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1064,
+        "character": 31
+      },
+      "start": {
+        "line": 1064,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1173,
+        "character": 72
+      },
+      "start": {
+        "line": 1081,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1231,
+        "character": 34
+      },
+      "start": {
+        "line": 1175,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1231,
+        "character": 34
+      },
+      "start": {
+        "line": 1175,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1203,
+        "character": 30
+      },
+      "start": {
+        "line": 1203,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1391,
+        "character": 39
+      },
+      "start": {
+        "line": 1233,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "parameters",
+      "0",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1254,
+        "character": 22
+      },
+      "start": {
+        "line": 1254,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "parameters",
+      "1",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1259,
+        "character": 22
+      },
+      "start": {
+        "line": 1259,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "retry-after-seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1306,
+        "character": 33
+      },
+      "start": {
+        "line": 1306,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "ratelimit-limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1310,
+        "character": 30
+      },
+      "start": {
+        "line": 1310,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "ratelimit-remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1314,
+        "character": 30
+      },
+      "start": {
+        "line": 1314,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "ratelimit-consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1318,
+        "character": 28
+      },
+      "start": {
+        "line": 1318,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "ratelimit-reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1322,
+        "character": 49
+      },
+      "start": {
+        "line": 1322,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-count",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1330,
+        "character": 29
+      },
+      "start": {
+        "line": 1330,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-page",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1334,
+        "character": 28
+      },
+      "start": {
+        "line": 1334,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1338,
+        "character": 28
+      },
+      "start": {
+        "line": 1338,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1362,
+        "character": 30
+      },
+      "start": {
+        "line": 1362,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds/{breed_id}/facts",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1391,
+        "character": 39
+      },
+      "start": {
+        "line": 1367,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1779,
+        "character": 72
+      },
+      "start": {
+        "line": 1393,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1779,
+        "character": 72
+      },
+      "start": {
+        "line": 1393,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "parameters",
+      "1",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1409,
+        "character": 22
+      },
+      "start": {
+        "line": 1409,
+        "character": 19
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1445,
+        "character": 29
+      },
+      "start": {
+        "line": 1445,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1449,
+        "character": 30
+      },
+      "start": {
+        "line": 1449,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1453,
+        "character": 30
+      },
+      "start": {
+        "line": 1453,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1457,
+        "character": 28
+      },
+      "start": {
+        "line": 1457,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1461,
+        "character": 49
+      },
+      "start": {
+        "line": 1461,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1473,
+        "character": 31
+      },
+      "start": {
+        "line": 1473,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/breeds/search",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1779,
+        "character": 72
+      },
+      "start": {
+        "line": 1490,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/favourites",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1900,
+        "character": 27
+      },
+      "start": {
+        "line": 1781,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/favourites",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 1900,
+        "character": 27
+      },
+      "start": {
+        "line": 1781,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1833,
+        "character": 32
+      },
+      "start": {
+        "line": 1833,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1837,
+        "character": 30
+      },
+      "start": {
+        "line": 1837,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1841,
+        "character": 30
+      },
+      "start": {
+        "line": 1841,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1845,
+        "character": 28
+      },
+      "start": {
+        "line": 1845,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1849,
+        "character": 49
+      },
+      "start": {
+        "line": 1849,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Count",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1853,
+        "character": 28
+      },
+      "start": {
+        "line": 1853,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Page",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1857,
+        "character": 28
+      },
+      "start": {
+        "line": 1857,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1861,
+        "character": 30
+      },
+      "start": {
+        "line": 1861,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1877,
+        "character": 30
+      },
+      "start": {
+        "line": 1877,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1900,
+        "character": 27
+      },
+      "start": {
+        "line": 1894,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/favourites",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2010,
+        "character": 29
+      },
+      "start": {
+        "line": 1901,
+        "character": 9
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/favourites",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2010,
+        "character": 29
+      },
+      "start": {
+        "line": 1901,
+        "character": 9
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1914,
+        "character": 17
+      },
+      "start": {
+        "line": 1910,
+        "character": 23
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1963,
+        "character": 33
+      },
+      "start": {
+        "line": 1963,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1967,
+        "character": 30
+      },
+      "start": {
+        "line": 1967,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1971,
+        "character": 30
+      },
+      "start": {
+        "line": 1971,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1975,
+        "character": 28
+      },
+      "start": {
+        "line": 1975,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1979,
+        "character": 49
+      },
+      "start": {
+        "line": 1979,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/favourites",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 1991,
+        "character": 29
+      },
+      "start": {
+        "line": 1991,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/favourites/{favourite_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2038,
+        "character": 32
+      },
+      "start": {
+        "line": 2012,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/favourites/{favourite_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2038,
+        "character": 32
+      },
+      "start": {
+        "line": 2012,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/favourites/{favourite_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 2065,
+        "character": 32
+      },
+      "start": {
+        "line": 2039,
+        "character": 11
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/favourites/{favourite_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 2065,
+        "character": 32
+      },
+      "start": {
+        "line": 2039,
+        "character": 11
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/votes",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2187,
+        "character": 27
+      },
+      "start": {
+        "line": 2067,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/votes",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2187,
+        "character": 27
+      },
+      "start": {
+        "line": 2067,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2119,
+        "character": 29
+      },
+      "start": {
+        "line": 2119,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2123,
+        "character": 30
+      },
+      "start": {
+        "line": 2123,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2127,
+        "character": 30
+      },
+      "start": {
+        "line": 2127,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2131,
+        "character": 28
+      },
+      "start": {
+        "line": 2131,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2135,
+        "character": 49
+      },
+      "start": {
+        "line": 2135,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Count",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2143,
+        "character": 28
+      },
+      "start": {
+        "line": 2143,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Page",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2147,
+        "character": 28
+      },
+      "start": {
+        "line": 2147,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Pagination-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2151,
+        "character": 30
+      },
+      "start": {
+        "line": 2151,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2163,
+        "character": 30
+      },
+      "start": {
+        "line": 2163,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/votes",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2187,
+        "character": 27
+      },
+      "start": {
+        "line": 2180,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/votes",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2300,
+        "character": 32
+      },
+      "start": {
+        "line": 2188,
+        "character": 9
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/votes",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2300,
+        "character": 32
+      },
+      "start": {
+        "line": 2188,
+        "character": 9
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "Retry-After-Seconds",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2249,
+        "character": 33
+      },
+      "start": {
+        "line": 2249,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2253,
+        "character": 30
+      },
+      "start": {
+        "line": 2253,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Remaining",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2257,
+        "character": 30
+      },
+      "start": {
+        "line": 2257,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Consumed",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2261,
+        "character": 28
+      },
+      "start": {
+        "line": 2261,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "RateLimit-Reset",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2265,
+        "character": 49
+      },
+      "start": {
+        "line": 2265,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be number",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/votes",
+      "post",
+      "responses",
+      "201",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2277,
+        "character": 30
+      },
+      "start": {
+        "line": 2277,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/votes/{vote_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2328,
+        "character": 32
+      },
+      "start": {
+        "line": 2302,
+        "character": 8
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/votes/{vote_id}",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2328,
+        "character": 32
+      },
+      "start": {
+        "line": 2302,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/vote/{vote_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 2356,
+        "character": 32
+      },
+      "start": {
+        "line": 2330,
+        "character": 11
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/vote/{vote_id}",
+      "delete"
+    ],
+    "range": {
+      "end": {
+        "line": 2356,
+        "character": 32
+      },
+      "start": {
+        "line": 2330,
+        "character": 11
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-description",
+    "path": [
+      "paths",
+      "/webhooks",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2455,
+        "character": 28
+      },
+      "start": {
+        "line": 2358,
+        "character": 9
+      }
+    },
+    "message": "Consider adding a \"description\" to the operation. This description is added yo the SDK's generated documentation and code hints.",
+    "severity": "hint"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/webhooks",
+      "post"
+    ],
+    "range": {
+      "end": {
+        "line": 2455,
+        "character": 28
+      },
+      "start": {
+        "line": 2358,
+        "character": 9
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/webhooks",
+      "post",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2417,
+        "character": 30
+      },
+      "start": {
+        "line": 2417,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "operation-operationId",
+    "path": [
+      "paths",
+      "/facts",
+      "get"
+    ],
+    "range": {
+      "end": {
+        "line": 2545,
+        "character": 42
+      },
+      "start": {
+        "line": 2457,
+        "character": 8
+      }
+    },
+    "message": "Operation must have \"operationId\".",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-count",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2502,
+        "character": 30
+      },
+      "start": {
+        "line": 2502,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-page",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2506,
+        "character": 28
+      },
+      "start": {
+        "line": 2506,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "pagination-limit",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2510,
+        "character": 28
+      },
+      "start": {
+        "line": 2510,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-schema-example",
+    "path": [
+      "paths",
+      "/facts",
+      "get",
+      "responses",
+      "200",
+      "headers",
+      "Content-Length",
+      "schema",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2534,
+        "character": 30
+      },
+      "start": {
+        "line": 2534,
+        "character": 25
+      }
+    },
+    "message": "\"example\" property type must be integer",
+    "severity": "warning"
+  },
+  {
+    "code": "oas3-valid-media-example",
+    "path": [
+      "paths",
+      "/facts",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "example"
+    ],
+    "range": {
+      "end": {
+        "line": 2545,
+        "character": 42
+      },
+      "start": {
+        "line": 2539,
+        "character": 22
+      }
+    },
+    "message": "\"example\" property type must be object",
+    "severity": "warning"
+  }
+]
